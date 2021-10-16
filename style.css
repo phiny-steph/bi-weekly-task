@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Main-styling*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100vw;
+  line-height: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a { 
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  margin: 1.5rem 0;
+}
+
+/* header styling */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #faecdb;
+  color: #000;
+  justify-content: center;  
+}
+
+#header-nav {
+ display: flex;
+ width: 90vw; 
+ justify-content: space-between;
+
+} 
+
+#header .logo {
+ display: flex;
+}
+
+#header-nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+  
+/* section hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #383029;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.first {
+  font-size: 2rem;
+  color: #FFA500 ;
+}
+.second {
+  font-size: 5rem;
+}
+.third {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+} 
+
+/* section two */
+.services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;    
+}
+
+/* section three */
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #faecdb;
+}
+
+/* .middle-heading {
+ color: #FFA500;
+ font-size: 1.7rem;
+ padding-top: 1.5rem;
+ flex-wrap: wrap;
+} */
+
+/* section four */
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* .about-heading {
+ color: #FFA500;
+ font-size: 1.7rem;
+ padding-top: 1.5rem;
+ flex-wrap: wrap;
+} */
+
+/* footer styling */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #383029;
+  color: #fff;
+   
+}
+
+
+.footer-wrapper {
+ display: flex;
+ flex-wrap: wrap; 
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #fff;
+  width: 30vw;
+  /* justify-content: space-between; */
+}
+
+.footer-nav a {
+  color: #fff;
+  /* padding: 2rem; */
+}
+
+/* .contact-heading {
+  color: #FFA500;
+  flex-wrap: wrap;
+}
+
+.link-heading {
+  color: #FFA500;
+  flex-wrap: wrap;
+} */
+
+
+
+
+
+/* button styling */
+.button {
+  background-color: #ff0000;
+  padding: 1rem 2rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  margin: 2rem;  
+}
+
